@@ -1,0 +1,14 @@
+f [ $a == $b ]
+then
+echo "a is equal to b"
+else
+echo "a is not equla to b"
+fi
+a="ab"
+b="cd"
+if [ $a == $b ]
+then
+echo "a is equal to b"
+else
+echo "a is not equla to b"
+fi
